@@ -12,7 +12,7 @@ import (
 
 // ConnectToDB Methods
 func ConnectToDB() *sql.DB {
-	db, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/catch_up")
+	db, err := sql.Open("mysql", "b6c386390f3b05:2fc2cd6e@tcp(us-cdbr-iron-east-03.cleardb.net:3306)/heroku_a29f673bda288da")
 	if err != nil {
 		log.Fatal(err)
 	} else {
