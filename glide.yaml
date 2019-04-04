@@ -1,0 +1,6 @@
+package: github.com/anant00729/movie_review_app
+import:
+- package: github.com/go-sql-driver/mysql
+  version: 3380ade90f8b0dfa3e363fd7d7e941fa857d0d13
+- package: github.com/gorilla/mux
+  version: c5c6c98bc25355028a63748a498942a6398ccd22
