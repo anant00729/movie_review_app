@@ -3,11 +3,11 @@
 	"GoVersion": "go1.6",
 	"Deps": [
 	  {
-		"ImportPath": "code.google.com/p/go-netrc/netrc",
+		"ImportPath": "github.com/anant00729/movie_review_app/routes",
 		"Rev": "28676070ab99"
 	  },
 	  {
-		"ImportPath": "github.com/kr/binarydist",
+		"ImportPath": "github.com/go-sql-driver/mysql",
 		"Rev": "3380ade90f8b0dfa3e363fd7d7e941fa857d0d13"
 	  }
 	]
