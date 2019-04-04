@@ -6,6 +6,8 @@ import (
 	"log"
 	"net/http"
 
+	"os"
+
 	"github.com/anant00729/movie_review_app/routes"
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -29,5 +31,12 @@ func init() {
 func main() {
 	db := ConnectToDB()
 	r := routes.InitRouter(db)
-	log.Fatal(http.ListenAndServe(":5344", r))
+
+	port := os.Getenv("PORT")
+
+	if port == "" {
+		port = "8000"
+	}
+
+	log.Fatal(http.ListenAndServe(":"+port, r))
 }
