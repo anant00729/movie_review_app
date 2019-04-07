@@ -1,11 +1,15 @@
 {
 	"ImportPath": "github.com/anant00729/movie_review_app",
-	"GoVersion": "go1.6",
+	"GoVersion": "go1.12",
 	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/go-sql-driver/mysql",
-			"Rev": "3380ade90f8b0dfa3e363fd7d7e941fa857d0d13"
+			"Comment": "v1.4.0-19-g1fbca2a",
+			"Rev": "1fbca2aabb09915d4f1006d01b271ad7778eec4f"
 		},
 		{
 			"ImportPath": "github.com/gorilla/mux",
