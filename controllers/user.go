@@ -1,19 +1,18 @@
 package controllers
 
 import (
-	"database/sql"
 	"encoding/json"
 	"net/http"
 
 	_m "github.com/anant00729/movie_review_app/models"
 )
 
-var db *sql.DB
+// var db *sql.DB
 
-// Connect get connection Object
-func Connect(_db *sql.DB) {
-	db = _db
-}
+// // Connect get connection Object
+// func Connect(_db *sql.DB) {
+// 	db = _db
+// }
 
 // GetAllUsers as
 func GetAllUsers(w http.ResponseWriter, r *http.Request) {
